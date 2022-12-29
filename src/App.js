@@ -34,8 +34,8 @@ function App() {
           <p>Start editing to see some magic happen</p>
           
         </div>
-        <Student name="kavya" email="mamillakavyareddy@gmail.com" loggedin ="false"> </Student>
-        
+        <Student name="kavya" email="mamillakavyareddy@gmail.com" > </Student>
+        <Student name="sowmya" email="mamillakavya1996@gmail.com" isLoggedIn="false"> </Student>
       </div>
     </Content>
     <Footer style={{ textAlign: 'center' }}>React Design ©2018 Created Kavya</Footer>
