@@ -6,6 +6,9 @@ export default function Student(props){
     const isLoggedIn = props.isLoggedIn;
     console.log(isLoggedIn);
 
+    //destructuring
+  const {name,email}=props;
+  
     //Event Handling
   function handleClick(e){
 
@@ -17,8 +20,8 @@ export default function Student(props){
     return (
         <div style={{backgroundColor:"white", border:"4px solid grey"}}>
           <h1>user is loggedin</h1>
-          <h1>Student Name: {props.name}</h1>
-          <h2>Email: {props.email}</h2>
+          <h1>Student Name: {name}</h1>
+          <h2>Email: {email}</h2>
           <Button type="primary" icon={<PoweroffOutlined />} onClick={handleClick}>
           
       Click Me

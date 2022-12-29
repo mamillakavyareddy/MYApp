@@ -5,6 +5,20 @@ import "antd/dist/antd.css";
 import Student from "./Student"
 
 const { Header, Content, Footer } = Layout;
+const StudentList = [
+  {
+    name: 'abc',
+    email: 'abc@def.com',
+  },
+  {
+    name: 'def',
+    email: 'def@xyz.com',
+  },
+  {
+    name: 'sajjith',
+    email: 'def@xkkkk.com',
+  },
+];
 function App() {
   return (
     <Layout>
@@ -36,6 +50,12 @@ function App() {
         </div>
         <Student name="kavya" email="mamillakavyareddy@gmail.com" > </Student>
         <Student name="sowmya" email="mamillakavya1996@gmail.com" isLoggedIn="false"> </Student>
+        <hr/>
+        {StudentList.map((student) => {
+              const { name, email } = student;
+
+              return <Student name={name} email={email} />;
+            })}
       </div>
     </Content>
     <Footer style={{ textAlign: 'center' }}>React Design ©2018 Created Kavya</Footer>
