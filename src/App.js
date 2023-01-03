@@ -2,7 +2,8 @@ import React from "react";
 import { Breadcrumb, Layout} from 'antd';
 import "antd/dist/antd.css";
 
-import Student from "./Student"
+import Student from "./Student";
+import Color from "./Color";
 
 const { Header, Content, Footer } = Layout;
 const StudentList = [
@@ -18,6 +19,7 @@ const StudentList = [
     name: 'sajjith',
     email: 'def@xkkkk.com',
   },
+
 ];
 function App() {
   return (
@@ -48,6 +50,9 @@ function App() {
           <p>Start editing to see some magic happen</p>
           
         </div>
+        <Color >
+
+        </Color>
         <Student name="kavya" email="mamillakavyareddy@gmail.com" > </Student>
         <Student name="sowmya" email="mamillakavya1996@gmail.com" isLoggedIn="false"> </Student>
         <hr/>
