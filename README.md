@@ -1,5 +1,25 @@
 # Getting Started with Create React App
 
+In terminal fire npx create-react-app my-app and go to finder and choose project 
+
+
+To create own components there are Two types of components:
+Two types of components
+- [x] Class component
+- [x] Functional component
+
+Properties /Attributes in react:
+
+
+Conditional rendering:
+Destructuring of properties
+Event handling with react
+Usage of list and map function
+Git hub push
+Usage of State variable in react component by using usestate hook
+How to call an API by using react use effect hook
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
