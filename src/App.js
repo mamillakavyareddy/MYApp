@@ -4,6 +4,7 @@ import "antd/dist/antd.css";
 
 import Student from "./Student";
 import Color from "./Color";
+import dog from "./dog";
 
 const { Header, Content, Footer } = Layout;
 const StudentList = [
@@ -47,13 +48,13 @@ function App() {
         
         <div>
           <h1>Hello Programmer</h1>
-          <p>Start editing to see some magic happen</p>
+          <p>upadated on jan 3</p>
           
         </div>
-        <Color >
-
-        </Color>
+        
+        
         <Student name="kavya" email="mamillakavyareddy@gmail.com" > </Student>
+        <dog/>
         <Student name="sowmya" email="mamillakavya1996@gmail.com" isLoggedIn="false"> </Student>
         <hr/>
         {StudentList.map((student) => {
