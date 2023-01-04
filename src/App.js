@@ -4,7 +4,7 @@ import "antd/dist/antd.css";
 
 import Student from "./Student";
 import Color from "./Color";
-import dog from "./dog";
+import Dog from "./dog";
 
 const { Header, Content, Footer } = Layout;
 const StudentList = [
@@ -53,15 +53,11 @@ function App() {
         </div>
         
         
-        <Student name="kavya" email="mamillakavyareddy@gmail.com" > </Student>
-        <dog/>
-        <Student name="sowmya" email="mamillakavya1996@gmail.com" isLoggedIn="false"> </Student>
+        
+        <Dog/>
+        
         <hr/>
-        {StudentList.map((student) => {
-              const { name, email } = student;
-
-              return <Student name={name} email={email} />;
-            })}
+        
       </div>
     </Content>
     <Footer style={{ textAlign: 'center' }}>React Design ©2018 Created Kavya</Footer>
