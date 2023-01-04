@@ -5,6 +5,7 @@ import "antd/dist/antd.css";
 import Student from "./Student";
 import Color from "./Color";
 import Dog from "./dog";
+import Teacher from "./teacher";
 
 const { Header, Content, Footer } = Layout;
 const StudentList = [
@@ -55,6 +56,7 @@ function App() {
         
         
         <Dog/>
+        <Teacher/>
         
         <hr/>
         
